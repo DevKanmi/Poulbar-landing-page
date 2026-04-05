@@ -26,12 +26,12 @@ const steps = [
   },
   {
     step: '3',
-    label: 'Financing Cost & Fees',
-    description: 'A small interest charge on the capital used, plus Poulber\'s platform management fee, is settled.',
+    label: 'Poulber Platform Fees',
+    description: 'Poulber\'s platform management fee is settled.',
     color: 'bg-blue-50',
     textColor: 'text-poulber-navy',
     borderColor: 'border-blue-100',
-    tag: 'Cost of Capital + Platform Fee',
+    tag: 'Platform Fee',
     tagColor: 'bg-blue-100 text-blue-700',
   },
   {

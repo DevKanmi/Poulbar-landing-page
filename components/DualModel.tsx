@@ -5,8 +5,8 @@ import { motion } from 'framer-motion'
 
 const models = [
   {
-    image: 'https://images.unsplash.com/photo-1548550023-2bdb3c5beed7?w=800&q=80&auto=format&fit=crop',
-    imageAlt: 'Broiler chickens in a poultry farm',
+    image: '/broiler_img.jpg',
+    imageAlt: 'White broiler chickens in a poultry farm',
     title: 'Broiler Production',
     badge: '6–8 Week Cycle',
     badgeBg: 'bg-poulber-navy text-white',
@@ -22,7 +22,7 @@ const models = [
     dotColor: 'bg-poulber-navy',
   },
   {
-    image: 'https://images.unsplash.com/photo-1518569656558-1f25e69d93d7?w=800&q=80&auto=format&fit=crop',
+    image: '/eggs_img.jpg',
     imageAlt: 'Layer hens producing eggs on a farm',
     title: 'Layer Production',
     badge: 'Daily Eggs',
@@ -100,6 +100,7 @@ export default function DualModel() {
                   alt={model.imageAlt}
                   fill
                   className="object-cover object-center transition-transform duration-500 hover:scale-105"
+                  sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 {/* Badge over image */}
                 <span

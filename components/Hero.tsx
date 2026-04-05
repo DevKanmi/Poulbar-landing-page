@@ -34,11 +34,13 @@ export default function Hero() {
     >
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=1800&q=80&auto=format&fit=crop"
+        src="/hero_img.jpg"
         alt=""
         fill
         priority
         className="object-cover object-center"
+        sizes="100vw"
+        priority
         aria-hidden="true"
       />
 

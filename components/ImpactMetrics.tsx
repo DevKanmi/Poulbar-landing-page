@@ -90,10 +90,11 @@ export default function ImpactMetrics() {
     >
       {/* Background image */}
       <Image
-        src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=1600&q=70&auto=format&fit=crop"
+        src="/our_impact_img.jpg"
         alt=""
         fill
         className="object-cover object-center opacity-20"
+        sizes="100vw"
         aria-hidden="true"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

@@ -62,10 +62,11 @@ export default function Marketplace() {
             {/* Image */}
             <div className="relative h-56">
               <Image
-                src="https://images.unsplash.com/photo-1592982537447-7440770cbfc9?w=800&q=80&auto=format&fit=crop"
+                src="/farmers_img.jpg"
                 alt="Young farmer in a poultry facility"
                 fill
                 className="object-cover object-center"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-poulber-green/40" aria-hidden="true" />
               <div className="absolute bottom-4 left-6">
@@ -108,10 +109,11 @@ export default function Marketplace() {
             {/* Image */}
             <div className="relative h-56">
               <Image
-                src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80&auto=format&fit=crop"
-                alt="Poultry farm facility building"
+                src="/facility_img.jpg"
+                alt="Poultry farm facility"
                 fill
                 className="object-cover object-center"
+                sizes="(max-width: 768px) 100vw, 50vw"
               />
               <div className="absolute inset-0 bg-poulber-navy/50" aria-hidden="true" />
               <div className="absolute bottom-4 left-6">

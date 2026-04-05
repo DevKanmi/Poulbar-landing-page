@@ -1,5 +1,6 @@
 'use client'
 
+import Image from 'next/image'
 import { motion } from 'framer-motion'
 
 const values = [
@@ -14,26 +15,20 @@ export default function Story() {
   return (
     <section
       id="story"
-      className="bg-poulber-green py-24 lg:py-32 overflow-hidden relative"
+      className="relative py-24 lg:py-32 overflow-hidden"
       aria-label="Our story and values"
     >
-      {/* Decorative leaf shape top-right */}
-      <div
-        className="absolute top-0 right-0 w-64 h-64 opacity-10"
+      {/* Background image */}
+      <Image
+        src="/purpose_img.jpg"
+        alt=""
+        fill
+        className="object-cover object-center"
+        sizes="100vw"
         aria-hidden="true"
-        style={{
-          background:
-            'radial-gradient(ellipse at top right, #ffffff 0%, transparent 70%)',
-        }}
       />
-      <div
-        className="absolute bottom-0 left-0 w-48 h-48 opacity-10"
-        aria-hidden="true"
-        style={{
-          background:
-            'radial-gradient(ellipse at bottom left, #051565 0%, transparent 70%)',
-        }}
-      />
+      {/* Green overlay */}
+      <div className="absolute inset-0 bg-poulber-green/85" aria-hidden="true" />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         {/* Label */}

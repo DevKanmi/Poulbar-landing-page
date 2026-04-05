@@ -32,10 +32,12 @@ export default function ZeroCapex() {
           >
             {/* Background image */}
             <Image
-              src="https://images.unsplash.com/photo-1574943320219-553eb213f72d?w=900&q=80&auto=format&fit=crop"
-              alt="A farmer working in the field"
+              src="/zero_capex_img.jpg"
+              alt="Chickens inside a poultry facility"
               fill
               className="object-cover object-center"
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              priority
             />
             {/* Overlay */}
             <div className="absolute inset-0 bg-poulber-navy/75" aria-hidden="true" />
