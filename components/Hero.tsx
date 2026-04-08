@@ -97,9 +97,9 @@ export default function Hero() {
           {/* CTAs */}
           <motion.div variants={itemVariants} className="flex flex-wrap gap-4 mb-14">
             <a
-              href="#marketplace"
+              href="#apply"
               className="inline-flex items-center px-7 py-3.5 rounded-full bg-poulber-green text-white font-bold text-base hover:bg-green-500 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-poulber-green focus:ring-offset-2 focus:ring-offset-poulber-navy"
-              aria-label="Join as a farmer"
+              aria-label="Apply to the NYSC Poultry Accelerator Program"
             >
               Join as a Farmer
             </a>

@@ -9,10 +9,10 @@ const footerLinks = {
     { label: 'Impact', href: '#impact' },
   ],
   Farmers: [
-    { label: 'Join as a Farmer', href: '#marketplace' },
+    { label: 'Join as a Farmer', href: '#apply' },
     { label: 'Zero Capex Model', href: '#zero-capex' },
     { label: 'Profit Structure', href: '#waterfall' },
-    { label: 'Training Programme', href: '#how-it-works' },
+    { label: 'Training Programme', href: '#apply' },
   ],
   'Facility Owners': [
     { label: 'List Your Farm', href: '#marketplace' },

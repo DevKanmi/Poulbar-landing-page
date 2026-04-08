@@ -53,9 +53,9 @@ export default function Navbar() {
 
           {/* Desktop CTA */}
           <a
-            href="#marketplace"
+            href="#apply"
             className="hidden md:inline-flex items-center px-5 py-2 rounded-full bg-poulber-green text-white text-sm font-bold hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-poulber-green focus:ring-offset-2"
-            aria-label="Get started with Poulber"
+            aria-label="Apply to NYSC Poultry Accelerator Program"
           >
             Get Started
           </a>
@@ -91,10 +91,10 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="#marketplace"
+            href="#apply"
             onClick={handleLinkClick}
             className="inline-flex justify-center items-center px-5 py-2 rounded-full bg-poulber-green text-white text-sm font-bold hover:bg-green-600 transition-colors focus:outline-none focus:ring-2 focus:ring-poulber-green"
-            aria-label="Get started with Poulber"
+            aria-label="Apply to NYSC Poultry Accelerator Program"
           >
             Get Started
           </a>

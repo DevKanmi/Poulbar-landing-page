@@ -8,6 +8,7 @@ import ImpactMetrics from '@/components/ImpactMetrics'
 import Marketplace from '@/components/Marketplace'
 import Story from '@/components/Story'
 import Roadmap from '@/components/Roadmap'
+import NYSCApply from '@/components/NYSCApply'
 import Footer from '@/components/Footer'
 
 export default function HomePage() {
@@ -23,6 +24,7 @@ export default function HomePage() {
       <Marketplace />
       <Story />
       <Roadmap />
+      <NYSCApply />
       <Footer />
     </main>
   )
