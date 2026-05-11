@@ -17,6 +17,15 @@ const config: Config = {
       fontFamily: {
         gilroy: ['var(--font-gilroy)', 'Nunito', 'Inter', 'sans-serif'],
       },
+      keyframes: {
+        ticker: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' },
+        },
+      },
+      animation: {
+        ticker: 'ticker 18s linear infinite',
+      },
     },
   },
   plugins: [],
